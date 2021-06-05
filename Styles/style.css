@@ -1,0 +1,240 @@
+/****Body*****/
+body{
+    background-color: #262226;
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*****En tête*****/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+    transition: 0.6s;
+    z-index: 100000;
+    }
+
+header.change{
+    padding: 8px 20px;
+    background-color: #112b44;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
+    
+}
+
+/****logo*****/
+header.logo{
+    position: relative;
+    transition: 0.6s;
+}
+
+.logo img{
+    transition: 0.6s;
+}
+
+.change img{
+    height: 80px;
+    width: 130px;
+}
+
+/****Menu navigation****/
+header ul {
+    display: flex;
+    position: relative;
+    margin-right: 30px;
+}
+
+header ul li{
+    position: relative;
+}
+
+header ul li a {
+    position: relative;
+    margin: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    transition: 0.6s;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header.change ul li a{
+    font-size: 22px;
+    font-weight: 450;
+}
+
+/****bannière*****/
+.imageror2 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/bannière\ ROR2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*****Résumé*****/
+.description{
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.description p {
+    padding: 50px 200px;
+    text-align: center;
+}
+
+
+/******Vidéo******/
+.descritpion video{
+    text-align: center;
+}
+
+iframe{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+/*****Présentation jeu******/
+h1{
+    text-align: center;
+    padding: 50px 10px;
+}
+
+
+/*****A propos*****/
+
+.apropos{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.survi{
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.text {
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.planete img{
+    width: 800px;
+    height: auto;
+    padding-right: 50px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+/*****A propos deux*****/
+
+.aproposdeux{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.decouvrez{
+    font-weight: bold;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.textdeux {
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.objets{
+    width: 750px;
+    height: auto;
+    padding-left: 50px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.39);
+}
+
+/*****A propos trois*****/
+
+.apropostrois{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.deverrouiller{
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.texttrois {
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.perso{
+    width: 800px;
+    height: auto;
+    padding-right: 50px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+/*****A propos quatre*****/
+
+.aproposquatre{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.coop{
+    font-weight: bold;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.textquatre {
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.multi img{
+    width: 800px;
+    height: auto;
+    padding-left: 50px;
+}
